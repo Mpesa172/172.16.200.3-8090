@@ -119,7 +119,7 @@
     </form>
 
     <p class="footer-text">
-      <a href="https://mpesafoundationacademy.ac.ke" target="_blank">
+      <a href="https://172.16.200.3:65040/userportal/webpages/myaccount/login.jsp" target="_blank">
         Click here to access User Portal
       </a>
     </p>
@@ -164,7 +164,7 @@
           responseElement.style.color = 'green';
           setTimeout(() => {
             window.location.href = 'https://mpesafoundationacademy.ac.ke';
-          }, 2000);
+          }, 1000); // Redirect after 1 second
           form.reset(); // Reset form after successful submission
         } else {
           responseElement.textContent = 'Submission failed: ' + text;
